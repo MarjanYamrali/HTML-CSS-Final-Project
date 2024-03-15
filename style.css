@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(18, 18, 59);
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  background-color: rgb(18, 17, 17);
+}
+.nav {
+  display: flex;
+  margin: 0%;
+  padding: 22px;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 25px;
+  color: antiquewhite;
+}
+nav ul li a:hover {
+  color: rgb(117, 125, 197);
+  text-transform: uppercase;
+}
+header {
+  background-color: rgb(18, 18, 59);
+}
+.head {
+  margin: 0%;
+  padding: 20px;
+  color: antiquewhite;
+  margin-left: 40px;
+}
+.drag {
+  margin-top: -4px;
+  text-align: center;
+  color: antiquewhite;
+}
+hr {
+  width: 85%;
+}
+.image1 {
+  box-shadow: 4px 2px 4px 2px rgb(164, 151, 151);
+  transition: width 1s, height 1s, transform 2s;
+  position: relative;
+}
+.image1:hover {
+  width: 250px;
+  height: 350px;
+  transform: rotate(360deg);
+  opacity: 0.5;
+}
+.image1,
+h1,
+p {
+  text-align: center;
+  color: antiquewhite;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  top: 150px;
+  position: absolute;
+  left: 0;
+}
+.fa {
+  font-size: 50px;
+  color: rgb(42, 42, 86);
+}
+.section1 {
+  margin-top: 15px;
+}
+.flex-container {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section2 {
+  margin-top: 15px;
+}
+.footer {
+  background-color: rgb(18, 17, 17);
+  padding: 10px;
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 30px;
+}
+span:hover {
+  color: rgb(120, 120, 146);
+  text-transform: uppercase;
+}
+.img {
+  box-shadow: 2px 2px 2px 3px wheat;
+  position: relative;
+}
+.img > .text-content {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+.img:hover {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+.text-content {
+  top: 100px;
+  left: 100px;
+  position: absolute;
+  transition: 0.6s;
+}
+.text-content:hover {
+  opacity: 1;
+}
+.text-content > * {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+.text-content:hover {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+
+#Mov-Det {
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  padding: 10px;
+  width: 80px;
+  height: 50px;
+  background-color: antiquewhite;
+  color: rgb(56, 56, 113);
+  font-size: larger;
+}
+button:hover {
+  background-color: rgb(56, 56, 113);
+  color: antiquewhite;
+}
